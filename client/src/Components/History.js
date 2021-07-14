@@ -12,7 +12,7 @@ export const History = () => {
 
     return (
         <>
-            <h3>test</h3>
+            <h3>History</h3>
             <ul className="list">
                 {transactions.map((transaction) => (
                     <TransactionList key={transaction.id} transaction={transaction} />
